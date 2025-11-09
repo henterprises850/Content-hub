@@ -4,7 +4,7 @@ import {
   login,
   getMe,
   updateProfile,
-} from "../controllers/authController.js";
+} from "../controllers/authcontroller.js";
 import { protect } from "../middleware/auth.js";
 
 const router = express.Router();

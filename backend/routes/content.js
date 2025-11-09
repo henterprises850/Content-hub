@@ -7,7 +7,7 @@ import {
   deleteContent,
   likeContent,
   getContentStats,
-} from "../controllers/contentController.js";
+} from "../controllers/contentcontroller.js";
 import { protect, admin } from "../middleware/auth.js";
 import { upload } from "../middleware/upload.js";
 
