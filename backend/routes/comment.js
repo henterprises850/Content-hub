@@ -5,7 +5,7 @@ import {
   updateComment,
   deleteComment,
   likeComment,
-} from "../controllers/commentController.js";
+} from "../controllers/commentcontroller.js";
 import { protect } from "../middleware/auth.js";
 
 const router = express.Router();

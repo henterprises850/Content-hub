@@ -6,7 +6,7 @@ import {
   registerForCompetition,
   updateCompetition,
   deleteCompetition,
-} from "../controllers/competitionController.js";
+} from "../controllers/competitioncontroller.js";
 import { protect, admin } from "../middleware/auth.js";
 
 const router = express.Router();
