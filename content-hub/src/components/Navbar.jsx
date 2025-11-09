@@ -128,13 +128,6 @@ const Navbar = () => {
             >
               Competitions
             </Link>
-            <Link
-              to="/profile"
-              className="block py-2 text-gray-700 hover:text-primary transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Profile
-            </Link>
 
             {user ? (
               <>
